@@ -1,18 +1,23 @@
+import type { Metadata, Viewport } from 'next';
 import './globals.css';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Thumbnail Designer - Portfolio',
   description:
     'Portfolio of a YouTube Thumbnail Designer showcasing high-CTR thumbnails and design process.',
 };
 
-export const viewport = {
+export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
   maximumScale: 5,
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html lang="en">
       <head>
