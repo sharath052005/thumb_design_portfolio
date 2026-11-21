@@ -4,7 +4,7 @@ import type { ReactNode } from 'react';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Thumbnail Designer - Portfolio',
+  title: 'Sharath - Thumbnail Designer',
   description:
     'Portfolio of a YouTube Thumbnail Designer showcasing high-CTR thumbnails and design process.',
 };
