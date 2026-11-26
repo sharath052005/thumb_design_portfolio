@@ -4,11 +4,42 @@ import type { ReactNode } from 'react';
 import './globals.css';
 
 
+
 export const metadata: Metadata = {
+  metadataBase: new URL('https://sharath-three.vercel.app'),
+
   title: 'Sharath | YouTube Thumbnail Designer',
+
   description:
     'Explore Sharath’s portfolio of creative YouTube thumbnails designed to capture attention, increase audience interest, and help creators stand out.',
+
+  openGraph: {
+    title: 'Sharath | YouTube Thumbnail Designer',
+    description:
+      'Explore creative YouTube thumbnails and discover my design portfolio.',
+    url: 'https://sharath-three.vercel.app/',
+    siteName: 'Sharath Portfolio',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Sharath - YouTube Thumbnail Designer Portfolio',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Sharath | YouTube Thumbnail Designer',
+    description:
+      'Explore creative YouTube thumbnails and discover my design portfolio.',
+    images: ['/og-image.png'],
+  },
 };
+
 
 export const viewport: Viewport = {
   width: 'device-width',
