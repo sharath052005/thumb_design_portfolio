@@ -3,10 +3,11 @@ import type { Metadata, Viewport } from 'next';
 import type { ReactNode } from 'react';
 import './globals.css';
 
+
 export const metadata: Metadata = {
-  title: 'Sharath - Thumbnail Designer',
+  title: 'Sharath | YouTube Thumbnail Designer',
   description:
-    'Portfolio of a YouTube Thumbnail Designer showcasing high-CTR thumbnails and design process.',
+    'Explore Sharath’s portfolio of creative YouTube thumbnails designed to capture attention, increase audience interest, and help creators stand out.',
 };
 
 export const viewport: Viewport = {
